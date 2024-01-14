@@ -1,7 +1,8 @@
+import React from "react";
 import TodoItem from "./TodoItem";
 import styles from "./TodoItems.module.css";
 
-const TodoItems = ({ todoItems, onDeleteClick }) => {
+function TodoItems({ todoItems, onDeleteClick }) {
   return (
     <div className={styles.itemsContainer}>
       {todoItems.map((item) => (
@@ -13,6 +14,6 @@ const TodoItems = ({ todoItems, onDeleteClick }) => {
       ))}
     </div>
   );
-};
+}
 
 export default TodoItems;

@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./AppName.module.css";
 
 function AppName() {
